@@ -1,3 +1,6 @@
+@font-face{font-family:'jazeera';src: url('https://www.fontstatic.com/fonts/jazeera/jazeera.eot?#iefix');src: local('الجزيرة'), local('jazeera'),url('https://www.fontstatic.com/fonts/jazeera/jazeera.woff') format('woff');}
+@font-face{font-family:'jazeera-light';src: url('https://www.fontstatic.com/fonts/jazeera-light/jazeera-light.eot?#iefix');src: local('الجزيرة خفيف'), local('jazeera-light'),url('https://www.fontstatic.com/fonts/jazeera-light/jazeera-light.woff') format('woff');}
+
 body {
     background-image: url(https://g.top4top.io/p_1788q5rth1.gif);
     background-size: contain;
@@ -15,6 +18,7 @@ ul.nav.nav-tabs {
     border-left-style: double;
     border-right-style: double;
     backface-visibility: hidden;
+        font-family: 'jazeera', FontAwesome;
 }
 ul.nav.nav-tabs>li>a {
     margin: 0;
@@ -35,6 +39,7 @@ ul.nav.nav-tabs>li>a {
     border-left-style: double;
     border-right-style: double;
     background-image: linear-gradient(90deg, #ac5288 0, #7d7a7a 10%, #c36191 51%, #9d9fa0 89%, #989696 100%);
+        font-family: 'jazeera', FontAwesome;
 }
 ul.nav.nav-tabs>li>.fa-user-plus:before, ul.nav.nav-tabs>li>.fa-user:before, ul.nav.nav-tabs>li>.fa-user:before {
     float: right;
@@ -46,6 +51,7 @@ ul.nav.nav-tabs>li>.fa-user-plus:before, ul.nav.nav-tabs>li>.fa-user:before, ul.
     text-align: center;
     background-color: #fff;
     color: #54310b;
+        font-family: 'jazeera', FontAwesome;
 }
 input#u1, input#u2, input#pass1, input#u3, input#pass2 {
     margin: 0 0 3px 48.5px !important;
@@ -62,6 +68,7 @@ input#u1, input#u2, input#pass1, input#u3, input#pass2 {
     border-right-style: double;
     border-top: 1px dotted #000 !important;
     border-bottom-style: dashed;
+        font-family: 'jazeera', FontAwesome;
 }
 a#asim21, div#tlogins button.btn.btn-primary, label.label.label-primary.mini.fl {
     /* background-color: #5c5c5c !important; */
@@ -92,6 +99,7 @@ div#l2 button.btn.btn-primary, div#l1 button.btn.btn-primary, div#l3 button.btn.
     border-top-style: dotted;
     border-left-style: double;
     border-bottom-style: dashed;
+        font-family: 'jazeera', FontAwesome;
 }
 ul.nav.nav-tabs.fl li .fa-user-plus:before {
     color: red;
@@ -154,9 +162,11 @@ ul.nav.nav-tabs {
     border-left-style: groove;
     border-right-style: ridge;
     border-radius: 3px !important;
+        font-family: 'jazeera', FontAwesome;
 }
 label.fl.nosel.label.pnhead {
     background-color: #c11616;
+        font-family: 'jazeera', FontAwesome;
 }
 #asim55 {
     border-top: 2px solid #f50784;
@@ -165,4 +175,32 @@ label.fl.nosel.label.pnhead {
     border-radius: 5px 5px 5px 5px;
     font-family: 'jazeera', FontAwesome;
     color: #780444;
+}
+.lonline.light.break {
+    outline: #ffffff00 solid 1px !important;
+    background-color: #5eb5bf3b !important;
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent) !important;
+}
+div#tlogins ::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+}
+
+div#tlogins ::-webkit-scrollbar-button {
+    width: 5px;
+    height: 5px;
+}
+div#tlogins ::-webkit-scrollbar-corner {
+    background: transparent;
+}
+div#tlogins ::-webkit-scrollbar-thumb {
+    background: #287c86;
+    border: 71px none #fff;
+    border-radius: 31px;
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent) !important;
+}
+div#tlogins ::-webkit-scrollbar-track {
+    background: #fff;
+    border: 65px none #fff;
+    border-radius: 34px;
 }
