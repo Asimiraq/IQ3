@@ -22,3 +22,8 @@ $(` <center><div></div><center></div><center>`).insertBefore('label.nosel.ninr.f
 
 
 </style>`).insertBefore('body')
+
+
+$( "div#l1 button.btn.btn-primary" ).bind( "click", function() {
+alert( "اهلا وسهلا بكم في شات نجمه الحب للجوال ❤️ سجل عضوية تحصل على 5000 لايك وزخرفة :: طريقة التسجيل اضغط على خيار (تـسجيـل )  (اكتب اسمك المستعار + كلمة المرور ) وبعدها اضغط دخول" );
+});
