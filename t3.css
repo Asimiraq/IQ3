@@ -116,3 +116,45 @@ ul.nav.nav-tabs>li {
     width: 32%;
     margin: 0 1px 0 2px;
 }
+ul.nav.nav-tabs {
+    /* background-color: #e2e2e2 !important; */
+    float: right;
+    /* padding: 4px 1px; */
+    /* border-radius: 0; */
+    /* margin-top: 9px; */
+    /* border-left: 1px solid #f7d322; */
+    /* border-right: 1px solid #f7d322; */
+    margin-top: !important;
+    /* margin-bottom: -33px !important; */
+    /* border-radius: 8px; */
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #f0ad4e;
+}
+.fl.fa.fa-sign-in.btn.btn-primary.dots.roomh.border.corner {
+    background-color: #56a2ab !important;
+    padding: 1px 4px !important;
+    pointer-events: none;
+}
+
+.border {
+    border: #e8e8e8 solid 1px;
+}
+.tbox {
+    padding: 3px;
+    min-height: 28px !important;
+    border-right: 5px solid;
+    border-right-color: currentcolor;
+    border-right-style: solid;
+    border-left: 5px solid;
+    border-left-color: currentcolor;
+    border-left-style: solid;
+    border-color: #d2d2d2;
+    border-left-style: groove;
+    border-right-style: ridge;
+    border-radius: 3px !important;
+}
+label.fl.nosel.label.pnhead {
+    background-color: #c11616;
+}
