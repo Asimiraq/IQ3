@@ -17,8 +17,7 @@ $(` <center><div></div><center></div><center>`).insertBefore('label.nosel.ninr.f
 &nbsp;<br />
 &nbsp;</div>
       </div>
-    <a  style="margin-top:-20px;padding:4px;float:right;border-radius:100px;" class="btn minix btn-danger fa fa-spin fa-heart fr"></a></div>`).insertBefore('div#d2bc'),$(`<img src ="sico/z1c7j29n8e10.gif" etclass="fr" style="width:100%;margin-top: 1px;">
-</div>`).insertBefore('.nav-tabs'),$('.checkbox label').html(`<input id="stealth" type="checkbox" value=""><img style="width: 22px;" src="sico/z1c68amgdt10.gif" width="100%">`),$('.nav-tabs').addClass('fl').css('width','100%'),$(`
+    <a  style="margin-top:-20px;padding:4px;float:right;border-radius:100px;" class="btn minix btn-danger fa fa-spin fa-heart fr"></a></div>`).insertBefore('div#d2bc'),$(``).insertBefore('.nav-tabs'),$('.checkbox label').html(`<input id="stealth" type="checkbox" value=""><img style="width: 22px;" src="sico/z1c68amgdt10.gif" width="100%">`),$('.nav-tabs').addClass('fl').css('width','100%'),$(`
 <link rel="stylesheet" href=""><style>
 
 
