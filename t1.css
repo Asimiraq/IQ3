@@ -1,0 +1,109 @@
+body {
+    background-image: url(https://g.top4top.io/p_1788q5rth1.gif);
+    background-size: contain;
+    background-color: #f9f9f9 !important;
+}
+ul.nav.nav-tabs {
+    background-color: #ecebe9 !important;
+    float: none;
+    padding: 4px 1px;
+    border-radius: 0;
+    margin-top: -260px;
+    border-left: 1px solid #a37b52;
+    border-right: 1px solid #a37b52;
+    border-bottom-style: dashed;
+    border-left-style: double;
+    border-right-style: double;
+    backface-visibility: hidden;
+}
+ul.nav.nav-tabs>li>a {
+    margin: 0;
+    color: #fff;
+    border: 0;
+    text-align: center;
+    background-color: #520a6a;
+    border-radius: 3px;
+    display: initial;
+    width: 100px;
+    float: left;
+    padding: 0 !important;
+    text-align: center;
+    border-style: solid;
+    border-right: 7px solid;
+    border-left: 7px solid;
+    border-color: #fff;
+    border-left-style: double;
+    border-right-style: double;
+    background-image: linear-gradient(90deg, #ac5288 0, #7d7a7a 10%, #c36191 51%, #9d9fa0 89%, #989696 100%);
+}
+ul.nav.nav-tabs>li>.fa-user-plus:before, ul.nav.nav-tabs>li>.fa-user:before, ul.nav.nav-tabs>li>.fa-user:before {
+    float: right;
+    margin-right: -38%;
+    border: 1px solid;
+    padding: 0 3px 1px;
+    border-radius: 3px;
+    width: 23px;
+    text-align: center;
+    background-color: #fff;
+    color: #54310b;
+}
+input#u1, input#u2, input#pass1, input#u3, input#pass2 {
+    margin: 0 0 3px 48.5px !important;
+    width: 61%;
+    height: 30px;
+    border: 1px solid #c76495;
+    border-radius: 3px;
+    text-align: center;
+    border-style: solid;
+    border-right: 20px solid;
+    border-left: 20px solid;
+    border-color: #b2588e;
+    border-left-style: double;
+    border-right-style: double;
+    border-top: 1px dotted #000 !important;
+    border-bottom-style: dashed;
+}
+a#asim21, div#tlogins button.btn.btn-primary, label.label.label-primary.mini.fl {
+    /* background-color: #5c5c5c !important; */
+    background-image: linear-gradient(90deg, #ac5288 0, #7d7a7a 10%, #c36191 51%, #9d9fa0 89%, #989696 100%);
+    background-repeat: inherit;
+    background-repeat-y: repeat;
+}
+
+div#l2 button.btn.btn-primary, div#l3 button.btn.btn-primary {
+    margin-left: -0px !important;
+    margin-top: 2px !important;
+}
+div#l2 button.btn.btn-primary, div#l1 button.btn.btn-primary, div#l3 button.btn.btn-primary {
+    border-radius: 7px !important;
+    width: 60px;
+    position: inherit;
+    height: 25px;
+    margin-bottom: 4px;
+    padding: 0 0 3px;
+    border-right: 6px solid;
+    border-left: 6px solid;
+    border-right: 4px dotted;
+    border-left: 4px dotted;
+    font-family: fanni;
+    border-color: #fff;
+    border-bottom-style: groove;
+    border-right-style: double;
+    border-top-style: dotted;
+    border-left-style: double;
+    border-bottom-style: dashed;
+}
+ul.nav.nav-tabs.fl li .fa-user-plus:before {
+    color: red;
+    -webkit-animation: mymove .5s infinite;
+    animation: mymove .5s infinite;
+}
+
+ul.nav.nav-tabs.fl li .fa-user-plus:before {
+    color: red;
+    -webkit-animation: mymove .5s infinite;
+    animation: mymove .5s infinite;
+}
+ul.nav.nav-tabs.fl li .fa-user-plus:before{color:red;-webkit-animation:mymove .5s infinite;animation:mymove .5s infinite}
+@-webkit-keyframes mymove{from{color:red}to{}}
+@keyframes mymove{from{color:red}to{color:#FFF}}
