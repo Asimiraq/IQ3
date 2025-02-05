@@ -107,3 +107,12 @@ ul.nav.nav-tabs.fl li .fa-user-plus:before {
 ul.nav.nav-tabs.fl li .fa-user-plus:before{color:red;-webkit-animation:mymove .5s infinite;animation:mymove .5s infinite}
 @-webkit-keyframes mymove{from{color:red}to{}}
 @keyframes mymove{from{color:red}to{color:#FFF}}
+ul.nav.nav-tabs>li {
+    width: 32%;
+    margin: 0 1px 0 2px;
+}
+
+ul.nav.nav-tabs>li {
+    width: 32%;
+    margin: 0 1px 0 2px;
+}
