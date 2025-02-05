@@ -1,7 +1,7 @@
 
 $(`<img style="margin-left: -1px;width:101%; margin-top: 0px;pointer-events:none;margin-bottom: 0px;" src="https://f.top4top.io/p_1789oiuc31.gif " ></div><center>
 
-<a id="asim99" href=""><i class="fa fa-refresh fa-spin fa-3x fa-fw" aria-hidden="true"></i></a></div></div>
+<a id="asim99" href=""></div>
 <div id="asim1"><a id="asim2"target="_blank"type="a"href="rules.html"style="border-radius: 0 10% 0 0; border-right: 2px solid#a6a6a6;"class="btn minix btn-primary">القوانين</a><a id="asim2"target="_blank"type="a"href="sub.html"style="border-radius: 0%; border-right: 1px solid#f5f8fa;"class="btn minix btn-primary">الاشتراكات</a><a id="asim2"target="_blank"type="a"href="https://www.jfa-w.net/"style="border-radius: 0%; border-right: 1px solid#f5f8fa;"class="btn minix btn-primary">شات جفى</a><a id="asim10"target="_blank"type="a"href="contact.html"style="border-radius: 0 0 10% 0; border-right: 2px solid#a6a6a6; border-top: 1px solid#f5f8fa"class="btn minix btn-primary">اتصل بنا</a><a id="asim10"target="_blank"type="a"href="ruless.html"style="border-radius: 0%; border-right: 1px solid#f5f8fa; border-top: 1px solid#f5f8fa;"class="btn minix btn-primary">الراديو</a><a id="asim10"target="_blank"type="a"href="mobile.html "style="border-radius: 0%; border-right: 1px solid#f5f8fa; border-top: 1px solid#f5f8fa;"class="btn minix btn-primary">تطبيق</a><a id="asim10"target="_blank"type="a"href="Shortcut.html"style="border-radius: 0 0 0 10%; border-left: 2px solid#a6a6a6; border-right: 1px solid#f5f8fa; border-top: 1px solid#f5f8fa;"class="btn minix btn-primary">اختصارات</a>
 <a id="hack2"target="_blank"type="a"href="https://blog.jfa-w.net/"style="border-radius: 0 0 10% 0; border-right: 2px solid#a6a6a6; border-top: 1px solid#f5f8fa"class="btn minix btn-primary">المدونة</a><a id="hack2"target="_blank"type="a"href="https://www.abraj2015.com/"style="border-radius: 0%; border-right: 1px solid#f5f8fa; border-top: 1px solid#f5f8fa;"class="btn minix btn-primary">الآبراج</a><a id="hack2"target="_blank"type="a"href="https://www.wadhefa.com/"style="border-radius: 0%; border-right: 1px solid#f5f8fa; border-top: 1px solid#f5f8fa;"class="btn minix btn-primary">وظائف</a>
 <center>`).insertBefore(".nav-tabs")
@@ -34,7 +34,7 @@ document.getElementById('pass1')
 
  $("div#tlogins button.btn.btn-primary").click(function(){var b=setInterval(function(){var c=$(".pmsgc").length;0<c?($(` <a class="fl mini fa fa-bullhorn  btn btnn-default">&nbsp; لـ الشكاوي .والاقتراحات . </a><input type="jfa-w" name="FirstName" value="( @jfa_w ) اتصال بناء: عبر تليجرام"><center>`).appendTo("#settings"),clearInterval(b)):console.log(c)},1)}); 
 $( "div#l1 button.btn.btn-primary" ).bind( "click", function() {
-alert( "اهلا وسهلا بكم في شات جفى للجوال ❤️ سجل عضوية تحصل على 5000 لايك وزخرفة :: طريقة التسجيل اضغط على خيار (تـسجيـل )  (اكتب اسمك المستعار + كلمة المرور ) وبعدها اضغط دخول" );
+alert( "اهلا وسهلا بكم في شات نجمه الحب للجوال ❤️ سجل عضوية تحصل على 5000 لايك وزخرفة :: طريقة التسجيل اضغط على خيار (تـسجيـل )  (اكتب اسمك المستعار + كلمة المرور ) وبعدها اضغط دخول" );
 });
 $("#d0 .fa-gear").html(' ').css('width','36px');
 $("#d0 .fa-users").html(' ').css('width','36px');
