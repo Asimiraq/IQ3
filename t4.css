@@ -158,3 +158,11 @@ ul.nav.nav-tabs {
 label.fl.nosel.label.pnhead {
     background-color: #c11616;
 }
+#asim55 {
+    border-top: 2px solid #f50784;
+    border-bottom: 2px solid #f50784;
+    margin-bottom: 2px;
+    border-radius: 5px 5px 5px 5px;
+    font-family: 'jazeera', FontAwesome;
+    color: #780444;
+}
