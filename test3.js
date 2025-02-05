@@ -1,14 +1,6 @@
 
 $(`<img style="margin-left: -1px;width:101%; margin-top: 0px;pointer-events:none;margin-bottom: 0px;" src="https://f.top4top.io/p_1789oiuc31.gif " ></div><center>
 
-<a id="asim99" href=""></div>
-<div id="asim1"><a id="asim2"target="_blank"type="a"href="rules.html"style="border-radius: 0 10% 0 0; border-right: 2px solid#a6a6a6;"class="btn minix btn-primary">القوانين</a><a id="asim2"target="_blank"type="a"href="sub.html"style="border-radius: 0%; border-right: 1px solid#f5f8fa;"class="btn minix btn-primary">الاشتراكات</a><a id="asim2"target="_blank"type="a"href="https://www.jfa-w.net/"style="border-radius: 0%; border-right: 1px solid#f5f8fa;"class="btn minix btn-primary">شات جفى</a><a id="asim10"target="_blank"type="a"href="contact.html"style="border-radius: 0 0 10% 0; border-right: 2px solid#a6a6a6; border-top: 1px solid#f5f8fa"class="btn minix btn-primary">اتصل بنا</a><a id="asim10"target="_blank"type="a"href="ruless.html"style="border-radius: 0%; border-right: 1px solid#f5f8fa; border-top: 1px solid#f5f8fa;"class="btn minix btn-primary">الراديو</a><a id="asim10"target="_blank"type="a"href="mobile.html "style="border-radius: 0%; border-right: 1px solid#f5f8fa; border-top: 1px solid#f5f8fa;"class="btn minix btn-primary">تطبيق</a><a id="asim10"target="_blank"type="a"href="Shortcut.html"style="border-radius: 0 0 0 10%; border-left: 2px solid#a6a6a6; border-right: 1px solid#f5f8fa; border-top: 1px solid#f5f8fa;"class="btn minix btn-primary">اختصارات</a>
-<a id="hack2"target="_blank"type="a"href="https://blog.jfa-w.net/"style="border-radius: 0 0 10% 0; border-right: 2px solid#a6a6a6; border-top: 1px solid#f5f8fa"class="btn minix btn-primary">المدونة</a><a id="hack2"target="_blank"type="a"href="https://www.abraj2015.com/"style="border-radius: 0%; border-right: 1px solid#f5f8fa; border-top: 1px solid#f5f8fa;"class="btn minix btn-primary">الآبراج</a><a id="hack2"target="_blank"type="a"href="https://www.wadhefa.com/"style="border-radius: 0%; border-right: 1px solid#f5f8fa; border-top: 1px solid#f5f8fa;"class="btn minix btn-primary">وظائف</a>
-<center>`).insertBefore(".nav-tabs")
-$(`<a href="https://blog.jfa-w.net/" target="_blank" style=" font-family: 'El Messiri', sans-serif;width:100px;color: #E8415D;text-decoration:none; margin-right: 3px;
-margin-left: 2px;text-align: center;float: right;border-radius: 5px;
-border-color: #F2F2F2;
-padding: 4.0px;" class="border" ><i class="fa fa-forumbee"></i>&nbsp;المدونة</a>`).insertBefore('a.fl.fa.fa-ban.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.umute.borderg');
 
 $('.nav-tabs').addClass('fl').css('width','100%');
 
@@ -18,9 +10,6 @@ $(`<link rel="stylesheet" href="https://rawcdn.githack.com/jfa-w/fahd/589b8d1c29
 
 
 
- if(location.protocol!='https:'){location.protocol='https:';}
-  
-eval((emo+'').replace('[0-9][0-9]|','[0-9][0-9][0-9]|[0-9][0-9]|'));
 
 $('.fl.ustat')
     .css('width', '3px'), $('.fa.fa-user-plus')
