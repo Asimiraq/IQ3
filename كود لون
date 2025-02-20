@@ -1,0 +1,77 @@
+$( '<style>\n#color-picker-icon {\n    position: fixed;\n    top: 80%; /* 50% + 30% لإنزال الأيقونة */\n    right: 20px;\n    transform: translateY(-50%); /* لضمان المحاذاة */\n    width: 60px;\n    height: 60px;\n    z-index: 10000;\n    cursor: pointer;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    transition: all 0.4s ease-in-out;\n}\n#color-picker-icon img {\n    width: 100%;\n    height: 100%;\n    border-radius: 50%; /* لجعل الصورة دائرية */\n    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);\n    transition: transform 0.4s ease-in-out;\n}\n#color-picker-icon:hover img {\n    transform: scale(1.1); /* تأثير التكبير عند التحويم */\n}\n\n#color-picker-panel {\n    position: fixed;\n    top: 50%;\n    right: 50%;\n    transform: translate(50%, -50%);\n    background: linear-gradient(135deg, #ffffff, #f3f4f6);\n    border-radius: 16px;\n    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);\n    padding: 20px;\n    display: none;\n    z-index: 9999;\n    width: 300px;\n    font-family: \'Arial\', sans-serif;\n    color: #ccc;\n    animation: fadeIn 0.5s ease-in-out;\n}\n#color-picker-panel h4 {\n    margin: 0;\n    font-size: 16px;\n    font-weight: bold;\n    text-align: center;\n    margin-bottom: 10px;\n    color: #aaa;\n}\n#color-picker-panel input[type="color"] {\n    width: 100%;\n    height: 40px;\n    border: none;\n    cursor: pointer;\n    margin-bottom: 20px;\n    border-radius: 8px;\n    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n    background-color: #333;\n    color: #fff;\n}\n#color-picker-panel button {\n    width: 100%;\n    padding: 12px;\n    background: linear-gradient(135deg, #6a11cb, #2575fc);\n    color: #fff;\n    border: none;\n    border-radius: 8px;\n    font-size: 16px;\n    font-weight: bold;\n    cursor: pointer;\n    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);\n    transition: all 0.3s ease-in-out;\n}\n#color-picker-panel button:hover {\n    background: linear-gradient(135deg, #2575fc, #6a11cb);\n    transform: scale(1.05);\n}\n#color-picker-panel button:active {\n    transform: scale(0.95);\n}\n\n#color-picker-panel .custom-color {\n    display: grid;\n    grid-template-columns: repeat(4, 1fr);\n    gap: 10px;\n    margin-bottom: 20px;\n}\n#color-picker-panel .custom-color div {\n    width: 40px;\n    height: 40px;\n    border-radius: 4px;\n    cursor: pointer;\n    border: 2px solid #fff;\n    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);\n}\n#color-picker-panel .custom-color div:hover {\n    border-color: #aaa;\n}\n\n#designer-rights {\n    margin-top: 20px;\n    font-size: 14px;\n    text-align: center;\n    color: #777;\n}\n#designer-rights a {\n    color: #2575fc;\n    text-decoration: none;\n    font-weight: bold;\n}\n#designer-rights a:hover {\n    text-decoration: underline;\n}\n\n@keyframes fadeIn {\n    from {\n        opacity: 0;\n        transform: translate(50%, -55%);\n    }\n    to {\n        opacity: 1;\n        transform: translate(50%, -50%);\n    }\n}\n</style>'
+).appendTo('head')
+$(
+  '<div id="color-picker-icon">\n    <img src="https://up6.cc/2024/12/173536664225611.gif" alt="Color Picker Icon">\n</div>'
+).appendTo('body')
+$(
+  '<div id="color-picker-panel">\n    <h4>اختر لون الخلفية</h4>\n    <div class="custom-color">\n        <div style="background-color: #a41e54;" data-color="#a41e54"></div>\n        <div style="background-color: #982072;" data-color="#982072"></div>\n        <div style="background-color: #98278f;" data-color="#98278f"></div>\n        <div style="background-color: #62007a;" data-color="#62007a"></div>\n        <div style="background-color: #3c007a;" data-color="#3c007a"></div>\n        <div style="background-color: #0d1c4d;" data-color="#0d1c4d"></div>\n        <div style="background-color: #6f6f6f;" data-color="#6f6f6f"></div>\n        <div style="background-color: #212121;" data-color="#212121"></div>\n    </div>\n    <h4>اختر لون العناصر</h4>\n    <div class="custom-color">\n        <div style="background-color: #821d46;" data-color="#821d46"></div>\n        <div style="background-color: #7b215e;" data-color="#7b215e"></div>\n        <div style="background-color: #70276a;" data-color="#70276a"></div>\n        <div style="background-color: #4f0462;" data-color="#4f0462"></div>\n        <div style="background-color: #320561;" data-color="#320561"></div>\n        <div style="background-color: #081337;" data-color="#081337"></div>\n        <div style="background-color: #5c5c5c;" data-color="#5c5c5c"></div>\n        <div style="background-color: #111111;" data-color="#111111"></div>\n    </div>\n    <input type="color" id="bg-color-picker" value="#333333">\n    <input type="color" id="btn-primary-color-picker" value="#000000">\n    <button id="apply-colors">تطبيق الألوان</button>\n    <div id="designer-rights">\n        <span>+واتساب: <strong>970 567 776 967</strong></span><br>\n        <span>حقوق المصمم: <a href="#">حسين النعيمي</a></span><br>\n        <span>خاص لـ <a href="https://chat54.com/" target="_blank">شات نجمه الحب</a></span>\n    </div>\n</div>'
+).appendTo('body')
+$('#color-picker-icon').on('click', function () {
+  alert(
+    'تصميم:حسين النعيمي\nواتساب: \uD83D\uDCDE 970 567 776 967+\nسناب شات: \uD83D\uDC7B shbll9104\nخاص لـ نجمه الحب : https://chat54.com/'
+  )
+  $('#color-picker-panel').fadeToggle()
+})
+let shouldApplyColors = false
+$('#apply-colors').on('click', function () {
+  shouldApplyColors = true
+  const _0x2d0492 = $('#bg-color-picker').val(),
+    _0x1a1583 = $('#btn-primary-color-picker').val()
+  shouldApplyColors &&
+    ($('.bg').css('background-color', _0x2d0492),
+    $('.label-primary, .btn-primary, .bg-primary').each(function () {
+      const _0x35ae46 =
+        $(this).data('original-styles') || $(this).attr('style') || ''
+      $(this).data('original-styles', _0x35ae46)
+      $(this).attr(
+        'style',
+        _0x35ae46 +
+          '; background-color: ' +
+          _0x1a1583 +
+          ' !important; color: #fff !important;'
+      )
+    }),
+    $('#color-picker-panel').fadeOut())
+})
+const observerColors = new MutationObserver(() => {
+  if (shouldApplyColors) {
+    const _0x3ae8dd = $('#btn-primary-color-picker').val()
+    $('.label-primary, .btn-primary, .bg-primary').each(function () {
+      const _0xb81d93 =
+        $(this).data('original-styles') || $(this).attr('style') || ''
+      $(this).data('original-styles', _0xb81d93)
+      $(this).attr(
+        'style',
+        _0xb81d93 +
+          '; background-color: ' +
+          _0x3ae8dd +
+          ' !important; color: #fff !important;'
+      )
+    })
+  }
+})
+observerColors.observe(document.body, {
+  childList: true,
+  subtree: true,
+})
+const observerVisibility = new IntersectionObserver(
+  (_0x4a01d4) => {
+    _0x4a01d4.forEach((_0x37ab7a) => {
+      _0x37ab7a.isIntersecting && $('#color-picker-icon').fadeOut()
+    })
+  },
+  { threshold: 0.1 }
+)
+$('#d2').length
+  ? observerVisibility.observe(document.querySelector('#d2'))
+  : console.error('العنصر #d2 غير موجود في الصفحة.')
+$('#color-picker-panel .custom-color div').on('click', function () {
+  const _0x2b47c2 = $(this).data('color')
+  $(this).parent().prev('h4').text().includes('لون الخلفية')
+    ? ($('#bg-color-picker').val(_0x2b47c2),
+      $('.bg').css('background-color', _0x2b47c2))
+    : ($('#btn-primary-color-picker').val(_0x2b47c2),
+      $('.label-primary, .btn-primary, .bg-primary').css({
+        'background-color': _0x2b47c2,
+      }))
+})
