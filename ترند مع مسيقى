@@ -1,0 +1,49 @@
+$(
+  ' <style>#wall .uzr.d-flex.mm{border:1px solid transparent!important}#d2bc{background-image:url(https://www2.0zz0.com/2025/02/18/21/382289046.png);background-size:100%}#wall .fitimg.u-pic.borderg{height:52px!important;border:1px solid;border-radius:100px;box-shadow:0 0 0 #000000,inset 0 0 4px #000000,0 0 0 0 #000;margin-top:2px;margin-right:2px}</style>'
+).insertBefore('body')
+$(
+  "<style>#chats{background-color:#d4cfd2!important;background-image:url(https://www2.0zz0.com/2025/02/18/21/654881270.gif);background-size:100%;text-align:center;font-family:'Arial',sans-serif;position:relative}#audio-container{position:absolute;bottom:0;width:100%;background-color:rgb(0 0 0 / .1);padding:15px;box-shadow:0 -2px 10px rgb(0 0 0 / .2);border-top-left-radius:15px;border-top-right-radius:15px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px}.play-btn{background:linear-gradient(90deg,#006117,#00b32a,#006117);background-size:200% 200%;color:#fff;font-size:16px;font-weight:700;padding:10px 20px;border:none;border-radius:8px;cursor:pointer;box-shadow:0 4px 8px rgb(0 0 0 / .2);transition:transform 0.3s ease;animation:glowing 3s infinite}.play-btn:hover{transform:scale(1.1)}.toggle-btn{background-color:#2d89ef;color:#fff;font-size:15px;font-weight:700;padding:8px 20px;border:none;border-radius:25px;cursor:pointer;box-shadow:0 4px 10px rgb(0 0 0 / .2);margin-bottom:10px;transition:all 0.3s ease-in-out}.toggle-btn:hover{background-color:#1e5fa3;transform:translateY(-3px);box-shadow:0 6px 14px rgb(0 0 0 / .3)}@keyframes glowing{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}</style>"
+).insertBefore('body')
+let audioContainer =
+  ' <div id="audio-container"><button class="toggle-btn">عرض الترند الآخر</button><button class="play-btn">\uD83C\uDFB5 تشغيل التسجيل \uD83C\uDFB5</button><audio id="custom-audio" style="display: none;" loop><source src="https://files.catbox.moe/punewv.mp3" type="audio/mpeg"><!-- الأغنية الأولى -->متصفحك لا يدعم تشغيل الصوت. </audio></div>'
+$('#chats').append(audioContainer)
+let isFirstTrend = true
+$('.toggle-btn').on('click', function () {
+  isFirstTrend
+    ? ($('#chats').css({
+        'background-image':
+          'url(https://www2.0zz0.com/2025/02/18/21/204577272.gif)',
+      }),
+      $('#custom-audio source').attr(
+        'src',
+        'https://files.catbox.moe/tarjy7.mp3'
+      ),
+      $('#custom-audio')[0].load(),
+      $('.play-btn').css({
+        background: 'linear-gradient(90deg, #00662e, #212121, #c80020)',
+        'background-size': '200% 200%',
+        color: '#fff',
+      }))
+    : ($('#chats').css({
+        'background-image':
+          'url(https://www2.0zz0.com/2025/02/18/21/654881270.gif)',
+      }),
+      $('#custom-audio source').attr(
+        'src',
+        'https://files.catbox.moe/punewv.mp3'
+      ),
+      $('#custom-audio')[0].load(),
+      $('.play-btn').css({
+        background: 'linear-gradient(90deg, #006117, #00b32a, #006117)',
+        'background-size': '200% 200%',
+        color: '#fff',
+      }))
+  isFirstTrend = !isFirstTrend
+})
+$('.play-btn').on('click', function () {
+  let _0x2a7ba0 = $('#custom-audio')[0]
+  _0x2a7ba0.paused
+    ? (_0x2a7ba0.play(), $(this).text('\u23F8️ إيقاف التسجيل \u23F8️'))
+    : (_0x2a7ba0.pause(),
+      $(this).text('\uD83C\uDFB5 تشغيل التسجيل \uD83C\uDFB5'))
+})
