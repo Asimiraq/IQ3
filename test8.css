@@ -1075,3 +1075,6 @@ Specificity: (0,3,0)
     border-right: 2px solid #a8c0e0 !important;
     border-left: 2px solid #a8c0e0 !important;
 }
+.tablebox.footer.fl.light {
+    background: linear-gradient(163deg, #e4e4e4 0%, #f8f8f8 100%);
+}
