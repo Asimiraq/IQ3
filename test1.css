@@ -1050,3 +1050,8 @@ display: none;
 .fa-user:before {
     margin-right: 4px;
 }
+.fa.fa-tencent-weibo:before {
+    content: "\f0e0";
+    -webkit-animation: mymove .5s infinite;
+    animation: mymove 1.5s infinite;
+}
