@@ -1054,5 +1054,12 @@ display: none;
     content: "\f02e";
 }
 .fl.mini.fa.fa-gg:before {
-    content: "\f040";
+    content: "\f14b";
 }
+.fl.mini.fa.fa-star-half-o:before {
+    content: "\f06d";
+}
+.fl.mini.fa.fa-bullhorn:before {
+    content: "\f123";
+}
+
