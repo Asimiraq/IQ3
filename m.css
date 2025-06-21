@@ -1131,3 +1131,37 @@ font-family: el messiri, FontAwesome !important;
 .fa-heart:before {
     content: "\f164";
 }
+label#chngpass.label.tc.border.pmsg.btn.label-info  {
+background: linear-gradient(45deg, #cf4fd9, #f8f8ff);
+}
+label.label.tc.border.pmsg.btn.label-info.fl {
+background: linear-gradient(45deg, #4f63d9, #f8f8ff);
+}
+label.label.tc.border.redit.btn.label-info.fl {
+background: linear-gradient(45deg, #4faad9, #f8f8ff);
+}
+a.label.tc.border.cp.btn.label-danger {
+background: linear-gradient(45deg, #4fd9c6, #f8f8ff);
+}
+.like2.corner.btn.minix.btn-danger.fa.fa-heart {
+border-radius: 3px 0 0 3px;
+    border-style: solid;
+    border-left: 4px solid;
+    border-left-style: groove;
+    border-radius: 7px 14px 7px 14px !important;
+    border-right: 2px solid #a8c0e0 !important;
+    border-left: 2px solid #a8c0e0 !important;
+    border-radius: 0.875rem 0 0 0.708rem !important;
+    border-style: solid !important;
+}
+.comm.corner.btn.minix.btn-primary.fa.fa-comments {
+display: inline-block;
+    padding: 7px 5px 5px 13px;
+    border-radius: 0;
+    margin-left: -3px !important;
+    border-radius: 0 0.958rem 0.917rem 0 !important;
+    border-style: solid !important;
+    border-right: 0.167rem solid !important;
+    border-right-style: ridge !important;
+    margin-left: -0.083rem !important;
+}
