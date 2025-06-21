@@ -1051,4 +1051,8 @@ display: none;
     margin-right: 4px;
 }
 .fa.fa-tencent-weibo:before {
-fl mini  fa fa-gg
+    content: "\f02e";
+}
+.fl.mini.fa.fa-gg:before {
+    content: "\f040";
+}
