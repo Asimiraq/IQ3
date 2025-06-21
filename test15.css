@@ -1128,3 +1128,6 @@ font-family: el messiri, FontAwesome !important;
     font-size: 13px !important;
     border: 0.042rem solid #FFE0F6 !important;
 }
+.fa-heart:before {
+    content: "\f164";
+}
