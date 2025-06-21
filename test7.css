@@ -1061,4 +1061,17 @@ display: none;
 .fl.mini.fa.fa-bullhorn:before {
     content: "\f123";
 }
+.nosel.fl.bg
+Specificity: (0,3,0)
+ {
+    background: linear-gradient(163deg, #e4e4e4 0%, #e4dec0 100%);
+}
+.label-primary, .btn-primary {
+    background: linear-gradient(163deg, #31b3c3 0%, #2a4158 100%) !important;
+}
 
+.label-primary, .label-warning, .btn-primary {
+    border-radius: 7px 14px 7px 14px !important;
+    border-right: 2px solid #a8c0e0 !important;
+    border-left: 2px solid #a8c0e0 !important;
+}
