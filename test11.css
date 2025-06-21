@@ -1067,3 +1067,68 @@ display: none;
 .tablebox.footer.fl.light {
     background: linear-gradient(163deg, #e4e4e4 0%, #f8f8f8 100%);
 }
+.ae.fa.label.label-primary.fa-user {
+    border-radius: 3px 0 0 3px;
+    border-style: solid;
+    border-left: 4px solid;
+    border-left-style: groove;
+    border-radius: 7px 14px 7px 14px !important;
+    border-right: 2px solid #a8c0e0 !important;
+    border-left: 2px solid #a8c0e0 !important;
+    border-color: #000000 !important;
+    padding: 0.292rem 0.625rem 0.208rem 0.208rem !important;
+    border-radius: 0.875rem 0 0 0.708rem !important;
+    border-style: solid !important;
+    border-left: 0.167rem solid !important;
+    border-left-style: groove !important;
+    border-right: 0.083rem solid #fff !important;
+}
+.ae.fa.chats.label.fa-comment.label-primary {
+    padding: 7px 13px 5px;
+    margin-left: -7px !important;
+    border-radius: 0;
+    border-color: #000000 !important;
+    width: 2.083rem !important;
+    padding: 0.292rem 0.708rem 0.208rem !important;
+    margin-left: -0.083rem !important;
+    border-radius: 0 !important;
+    border-right: 0.083rem solid #fff !important;
+}
+.ae.fa.label.label-primary.fa-users {
+    border-color: #000000 !important;
+    padding: 0.292rem 0.208rem 0.208rem 0.625rem !important;
+    border-radius: 0 !important;
+    margin-left: -0.083rem !important;
+    border-right: 0.083rem solid #fff !important;
+}
+.ae.fa.label.fa-comments.label-primary {
+    border-color: #000000 !important;
+    padding: 0.292rem 0.208rem 0.208rem 0.625rem !important;
+    border-radius: 0 !important;
+    margin-left: -0.083rem !important;
+    border-right: 0.083rem solid #fff !important;
+
+}
+.ae.label.label-primary.fa.fa-gear {
+    padding: 7px 5px 5px 13px;
+    border-radius: 0;
+    margin-left: -3px !important;
+    border-color: #000000 !important;
+    padding: 0.292rem 1.042rem 0.208rem 0.417rem !important;
+    border-radius: 0 0.958rem 0.917rem 0 !important;
+    border-style: solid !important;
+    border-right: 0.167rem solid !important;
+    border-right-style: ridge !important;
+    margin-left: -0.083rem !important;
+}
+#settings .tc {
+    border-radius: 3px !important;
+    padding: 7px !important;
+    border: 1px solid #2b2b2b !important;
+    margin: 6px 0 0 1px !important;
+    width: 99.6% !important;
+    margin-top: 2px !important;
+font-family: el messiri, FontAwesome !important;
+    font-size: 13px !important;
+    border: 0.042rem solid #FFE0F6 !important;
+}
