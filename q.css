@@ -285,41 +285,16 @@ button.fa.fa-send.sndpm.fl.btn.btn-primary {
   display:none;
 }
 
-.fa-user-times {
-  margin:0 !important;
-  background-color:#FFF;
-  top:58px !important;
-  transform:rotate(-90deg);
-  width:123px !important;
-  position:absolute;
-  left:-41px;
-}
+
 
 .btn.hand.borderg.corner {
   width:32px;
   height:33px;
 }
 
-.ukick {
-  margin:0 !important;
-  width:60px !important;
-  background-color:#FFF !important;
-  margin-top:14px !important;
-  margin-left:-60px !important;
-  position:absolute;
-  top:1px;
-}
 
 
-.uban {
-  margin:0 !important;
-  width:60px !important;
-  background-color:#FFF;
-  margin-top:73px !important;
-  margin-left:-61px !important;
-  position:absolute;
-  top:1px;
-}
+
 
 .emoi {
   width:auto;
@@ -961,10 +936,7 @@ font.asim11 {
   font-size:13px !important;
 }
 
-.fl.mini.u-msg,
-span.fr {
-  display:none;
-}
+
 
 #as43 {
   height:20px;
